@@ -1,0 +1,45 @@
+@import "../../style.import.scss";
+
+.categories{
+    padding: 40px var(--horizontal-padding);
+}
+
+.category{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 90px;
+
+    img {
+        width: 90px;
+        height: 90px;
+    }
+
+    p{
+        margin-top: var(--font-size-18-10);
+        margin-bottom: 0;
+
+        font-size: var(--font-size-18);
+        font-weight: 500;
+        line-height: 23px;
+        color: $color-black;
+    }
+}
+
+@media (max-width: $desktop) {
+    .category{
+        width: 116px;
+    }
+}
+
+@media (max-width: $tablet) {
+    .category{
+        width: 80px;
+
+        img{
+            width: 60px;
+            height: 60px;
+        }
+    }
+}

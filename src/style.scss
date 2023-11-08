@@ -1,0 +1,26 @@
+@import "./fonts/mont/stylesheet.css";
+@import "./fonts/archaism/Add/stylesheet.css";
+@import "./style.import.scss";
+
+* {
+    font-family: "Mont", sans-serif;
+}
+
+body {
+    max-width: $desktop;
+    margin: auto;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Archaism", sans-serif;
+    font-weight: 400;
+
+    margin: 0;
+}
+
+button {
+    background-color: transparent;
+    outline: none;
+}
